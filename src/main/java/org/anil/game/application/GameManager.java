@@ -82,7 +82,7 @@ public class GameManager {
     }
 
     private void showScores(Scores scores) {
-        if (null == scores.getPlayers() || scores.getPlayers().isEmpty()) {
+        if (null == scores || null == scores.getPlayers() || scores.getPlayers().isEmpty()) {
             System.out.println(FeedbacksEnum.SCORE_NOT_FOUND.getFeedBack());
         } else {
             scores.getPlayers().forEach(System.out::println);

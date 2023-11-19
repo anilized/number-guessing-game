@@ -47,7 +47,7 @@ public class TxtFilePersistenceAdapter implements PlayerStatisticsOutputPort {
             }
             return Optional.of(scores);
         } catch (IOException e) {
-            System.out.println("Something wrong happened");
+            System.out.println("Scores file not found. Will be created");
         }
         return Optional.empty();
     }
