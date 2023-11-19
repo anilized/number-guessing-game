@@ -21,7 +21,7 @@
 - Directly from source code:
     - Simply go into `src/main/java/org/anil/Main.java` file and run in your prefered IDE
 - From `.jar` file:
-    - You can run the from .jar file. To be able to do this you can follow these steps:
+    - You can run the project from .jar file. To be able to do this you can follow these steps:
         - `mvn clean package` -> this build and create a `.jar` file in target directory
         - `cd <path-to-target>`
         - `java -jar guessing-game-<version>-SNAPSHOT.jar`
